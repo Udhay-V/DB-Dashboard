@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #FAFAFA;
+    padding: 10px;
+    font-size: 30px;
+}
+
+label {
+    font-size: 23px;
+    color: #FAFAFA;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.form-control {
+    background-color: #006ADA;
+    height: 550px;
+    width: 400px;
+    box-shadow: 7px 10px 12px#F3F3F3;
+    border-radius: 30px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    background-color: #FAFAFA;
+    border: none;
+    box-sizing: border-box;
+    font: 1.2em;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .form-control {
+        background-color: #006ADA;
+        height: 550px;
+        width: 350px;
+        box-shadow: 7px 10px 12px#F3F3F3;
+        border-radius: 10px;
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    }
+}
